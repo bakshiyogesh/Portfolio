@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+          <link rel="stylesheet" href="index.css">
+    <title>PortFolio Website</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Yogesh Dev</div>
+            <div class="right"> 
+                <ul>
+                    <li><a href='/'>Home</a></li>
+                    <li><a href='/'>About</a></li>
+                    <li><a href='/'>Services</a></a></li>
+                    <li><a href='/'>Projects</a></li>
+                    <li><a href='/'>Contact Me</a></li>
+                </ul> </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first-main-container">
+            <div class="left-section">Hi,My name is <span class="name">Yogesh</span>
+                <div>and  I am a Passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="right-section">
+                <img src="./webdev.png" alt="dev image"/>
+            </div>
+        </section>
+        <hr>
+        <section class="second-section">
+            <span>What I have done till now</span>
+            <h1>Proffesional Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img  class='image-dev'src="./dev.png">
+                    <div class="vertical-tittle">
+                        <h2>Web Developer</h2>
+                    </div>
+                    <div class="vertical-info-desc"></div>
+                </div>
+                <div class="vertical">
+                    <img  class='image-dev'src="./dev.png">
+                    <div class="vertical-tittle">
+                        <h2>Frontend Developer Intern(Nov 22-May 23)</h2>
+                    </div>
+                    <div class="vertical-info-desc">
+                        <p>At Sofster company where i learn new technologies for frontend and gain some hands on experience.</p>
+                    </div>
+                </div>
+                <div class="vertical"> <img  class='image-dev'src="./dev.png">
+                    <div class="vertical-tittle">
+                        <h2>Web Developer</h2>
+                    </div>
+                    <div class="vertical-info-desc"></div></div>
+                <div class="vertical">
+                    <img  class='image-dev'src="./dev.png">
+                    <div class="vertical-tittle">
+                        <h2>Web Developer</h2>
+                    </div>
+                    <div class="vertical-info-desc"></div>
+                </div>
+                <div class="vertical">
+                    <img  class='image-dev'src="./dev.png">
+                    <div class="vertical-tittle">
+                        <h2>Web Developer</h2>
+                    </div>
+                    <div class="vertical-info-desc"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="main-footer">
+            <div class="footer-first"> </div>
+            <div class="footer-second"> 
+                <ul>
+                <li><a href=""><img  src="./twitter.png" alt="twitter"></a></li> 
+                <li><a href=""><img  src="./github.png" alt="github"></a></li>
+                <li><a href=""><img  src="./linkedIn.com.png" alt="linkedIN"></a></li>
+            </ul>
+            </div>
+            <div class="footer-third"></div>
+        </div>
+      </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        let typed = new Typed('#element', {
+          strings: ['Frontend Developer', 'Fitness Freak'],
+          typeSpeed: 50,
+        });
+      </script>
+      
+</body>
+</html>
